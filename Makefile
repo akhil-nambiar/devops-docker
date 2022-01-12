@@ -2,7 +2,7 @@ build:
 	docker build -t test .
 	
 run: 
-	docker run -itd --name dockEx -p 2026:2026 test
+	docker run -itd --name dockEx -p 8081:1002 test
 
 exec:
 	docker exec -it dockEx /bin/bash	
