@@ -1,8 +1,8 @@
 CREATE TABLE studentData(Name varchar(20), Roll_No integer, Address varchar(40), Mobile_Number bigint primary key NOT NULL, PAN_Number varchar(10));
 
-INSERT INTO studentData values('Pappu', 85697, 'faltan', 9762845912, 'WRTU2006');
-INSERT INTO studentData values('Vicky', 74586, 'Karad', 9822456318, 'PWTI2007');
-INSERT INTO studentData VALUES('Mayur', 2033, 'Pune', 8796452514, 'HJKI8547');
+INSERT INTO studentData values('Vikas', 1001, 'Mumbai', 9993934544, 'PWRS2006');
+INSERT INTO studentData values('Salman ', 1002, 'Satara', 9524456318, 'PSBC5007');
+INSERT INTO studentData VALUES('Aamir', 1003, 'Pune', 9896552614, 'ABCI8447');
 
 
 
