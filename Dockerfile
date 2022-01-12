@@ -8,4 +8,4 @@ ENV MYSQL_PASSWORD=pucsd
 
 ADD test.sql /docker-entrypoint-initdb.d
 
-EXPOSE 2026
+EXPOSE 1002m
